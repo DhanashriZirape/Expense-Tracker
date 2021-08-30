@@ -1,0 +1,19 @@
+.container{
+  max-width: 800px;
+  min-width: 500px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 25px;
+  background-color: #5e5c5c;
+  color: white;
+  font-weight: 600;
+  padding:20px;
+  margin-top: 5%;
+}
+.app{
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
